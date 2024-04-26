@@ -1,0 +1,93 @@
+*{
+    font-family: "inter";
+    margin: 0px;
+   
+
+
+}
+
+#Primeira-parte{
+    background-color: #303030;
+    padding: 150px 0px 120px 50px;
+    color: white;
+}
+
+#Informacoes{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 50px 0px 50px 100px;
+    background-color:#F9F9F9;
+    
+
+}
+
+
+#Segunda-Parte{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 20px 30px 75px 125px;
+    margin-top: 105px;
+    font-size: 25px;
+    font-family: "inter";
+    text-align: left;
+}
+
+.img{
+    padding-top: 45px;
+    margin-left: 52px;
+    box-sizing: border-box;
+}
+#Texto-Master{
+    margin-top: 205px;
+    padding: 30px 55px 70px 0px;
+}
+#Formulario{
+    background-color: #303030;
+    padding: 10px 0px 150px 100px;
+    color: antiquewhite;
+    margin-top: 100px;
+    text-align: center;   
+}
+
+#textofinal{
+    font-size: 30px;
+    padding: 55px 0px 0px 0px;
+    font-family: "inter";
+    color: #FFFFFF;
+
+}
+
+input{
+    width: 240px;
+    height: 45px;
+    background: #FFFFFF;
+    margin: 10px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 15px;
+    
+}
+
+button{
+    background: #C07212;
+    height: 64px;
+    width: 200px;
+    color: #FFFFFF;
+    font-family: "Raleway";
+    border: 0px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 150px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #b9792bee;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #bd888586;
+    transition: 0.3s;
+    
+}
